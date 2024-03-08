@@ -1,3 +1,9 @@
+import HomeHeader from "@/components/HomeHeader";
+
 export default function Home() {
-  return <div className="text-red-500 font-semibold"> Gome</div>;
+  return (
+    <div className="">
+      <HomeHeader />
+    </div>
+  );
 }
