@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { BsFillMicFill } from "react-icons/bs";
 import { useRouter } from "next/navigation";
 export default function HomeSearch() {
-  const [input, setInput] = useState();
+  const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
